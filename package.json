@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --port 9000",
-    "start": "webpack -p",
+    "start": "webpack-dev-server",
+    "build": "webpack -p",
     "heroku-postbuild": "webpack -p"
   },
   "author": "",
